@@ -1,0 +1,272 @@
+
+/* home header */
+
+.home .first {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem 9%;
+}
+
+.home .first.second {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.home .first .content {
+  width: 50rem;
+}
+
+.home .first .content span {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.home .first .content h3 {
+  font-size: 6rem;
+  color: #22ff00;
+  padding-top: .5rem;
+  text-transform: uppercase;
+}
+
+.home .first .content p {
+  line-height: 2;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.swiper-button-prev-home::after,
+.swiper-button-prev-home::after {
+  font-size: 3rem;
+  color: #37ff00;
+}
+
+/* pandas header */
+
+
+.home .second {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem 9%;
+}
+
+.home .second.second {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.home .second .content {
+  width: 50rem;
+    margin-left: 70%;
+}
+
+.home .second .content span {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.home .second .content h3 {
+  font-size: 6rem;
+  color: #00ffbb;
+  padding-top: .5rem;
+  text-transform: uppercase;
+}
+
+.home .second .content p {
+  line-height: 2;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 3rem;
+  color: #00ffb2;
+}
+
+/* tkinter header */
+
+
+.home .third {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem 9%;
+}
+
+.home .third.second {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.home .third .content {
+  margin-right: 60%;
+  width: 50rem;
+}
+
+.home .third .content span {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.home .third .content h3 {
+  font-size: 6rem;
+  color: #ffdd00;
+  padding-top: .5rem;
+  text-transform: uppercase;
+}
+
+.home .third .content p {
+  line-height: 2;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 3rem;
+  color: #ffc400;
+}
+
+
+/* django header */
+
+.home .forth {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem 9%;
+}
+
+.home .forth.second {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.home .forth .content {
+  width: 50rem;
+}
+
+.home .forth .content span {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.home .forth .content h3 {
+  font-size: 6rem;
+  color: #ff2600;
+  padding-top: .5rem;
+  text-transform: uppercase;
+}
+
+.home .forth .content p {
+  line-height: 2;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+
+/* flask header */
+
+.home .fifth {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem 9%;
+}
+
+.home .fifth.second {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.home .fifth .content {
+  width: 50rem;
+  margin-right: 77%;
+}
+
+.home .fifth .content span {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.home .fifth .content h3 {
+  font-size: 6rem;
+  color: #fbea7c;
+  padding-top: .5rem;
+  text-transform: uppercase;
+}
+
+.home .fifth .content p {
+  line-height: 2;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 3rem;
+  color: #ffffff;
+}

@@ -1,0 +1,84 @@
+.btn-first {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid rgba(98, 255, 0, 0.53);
+  background: rgba(134, 159, 131, 0.29);
+  color: #ffffff;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-first:hover {
+  background: rgba(31, 255, 0, 0.37);
+  color: #ffffff;
+}
+
+.btn-second {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid #1a9a67;
+  background: #799389;
+  color: #ffffff;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-second:hover {
+  background: rgba(0, 255, 153, 0.44);
+  color: #ffffff;
+}
+
+.btn-third {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid rgba(255, 255, 0, 0.47);
+  background: #818166;
+  color: #ffffff;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-third:hover {
+  background: rgba(250, 238, 12, 0.31);
+  color: #fff;
+}
+
+.btn-forth {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid rgba(255, 0, 0, 0.47);
+  background: rgba(133, 91, 91, 0.47);
+  color: #ffffff;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-forth:hover {
+  background: rgba(245, 0, 0, 0.3);
+  color: #fff;
+}
+
+.btn-fifth {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid rgb(251, 234, 124);
+  background: rgb(251, 234, 124);
+  color: #ffffff;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-fifth:hover {
+  background: rgba(251, 234, 124, 0.47);
+  color: #fff;
+}

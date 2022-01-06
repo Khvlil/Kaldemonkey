@@ -1,0 +1,210 @@
+{% extends "app/base.html" %}
+{% load static %}
+<!-- home section starts  -->
+    {% block title %}
+        AZAZEL
+    {% endblock %}
+
+    {% block cover %}
+<link rel="stylesheet" href="{% static 'app/css/box/box.css' %}">
+<link rel="stylesheet" href="{% static 'app/css/header-btn/buttom.css' %}">
+<section class="home" id="home">
+        <div class="swiper home-slide">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box first" style="background: url(../../static/app/covers/rick-morty-cover.jpg) no-repeat;">
+                    <div class="content"  data-aos="fade-up">
+                        <span>K.D.M</span>
+                        <h3>chaos</h3>
+                        <p>Your experience in a world of chaos, a world that has no world<br>the best thing you can do is the right thing, the next best thing is the wrong thing, and the worst thing you can do is nothing.</p>
+                        <a href="#category" class="btn-first">get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(../../static/app/covers/pandas-cover.jpg) no-repeat;" >
+                    <div class="content" >
+                        <span>Pandas</span>
+                        <h3 data-aos="flip-down">Living</h3>
+                        <p>Be content with what you have <br>
+                            rejoice in the way things are.<br>
+                                When you realize there is<br>
+                                nothing lacking, the whole
+                                    world belongs to you.</p>
+                        <a href="#category" class="btn-second">get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box third" style="background: url(../../static/app/covers/tkinter-cover.jpg) no-repeat;">
+                    <div class="content" data-aos="fade-right">
+                        <span>tkinter</span>
+                        <h3 data-aos="flip-down">Understanding</h3>
+                        <p>Life is just a slide. Back and forth between loving and leaving, remembering and forgetting, holding on and letting go.</p>
+                        <a href="#category" class="btn-third">get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box forth" style="background: url(../../static/app/covers/django-cover.jpg) no-repeat;" >
+                    <div class="content">
+                        <span>Django</span>
+                        <h3 data-aos="flip-down" >Knowing</h3>
+                        <p>Never let the future disturb you. You will meet it, if you have to, with the same weapons of reason which today arm you against the present.</p>
+                        <a href="#category" class="btn-forth">get started</a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="swiper-slide">
+                <div class="box fifth" style="background: url(../../static/app/covers/flask-cover.png) no-repeat;" >
+                    <div class="content">
+                        <span>Flask</span>
+                        <h3 data-aos="flip-down">Living</h3>
+                        <p>It is not that we have so little time but that we lose so much… The life we receive is not short<br>but we make it so</p>
+                        <a href="#category" class="btn-fifth">get started</a>
+                    </div>
+                </div>
+            </div>
+
+
+          </div>
+       </div>
+
+
+
+
+
+</div>
+</div>
+
+        <div class="swiper-button-next" id="swiper-button-next"></div>
+        <div class="swiper-button-prev" id="swiper-button-prev"></div>
+    </div>
+</section>
+
+    {% endblock %}
+
+<!-- home section ends -->
+
+
+
+
+<!-- category section starts  -->
+
+    {% block project %}
+       <section class="category" id="category">
+
+    <h1 class="heading" data-aos="fade-up">Projects idea!</h1>
+
+    <div class="box-container"  data-aos="fade-up">
+
+        <div class="box">
+            <img src="../../static/app/profiles/pandas-profiile.jpg" alt="">
+            <h3>Panda</h3>
+            <p>provides various data structures and operations for manipulating numerical data and time series</p>
+            <a href="{% url 'panda' %}" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="../../static/app/profiles/django-profile.jpg" alt="">
+            <h3>Django</h3>
+            <p>Python-based web framework that allows you to quickly create efficient web applications</p>
+            <a href="{% url 'django' %}" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="../../static/app/profiles/tkinter-profiles.jfif" alt="">
+            <h3>Tkinter</h3>
+            <p>Tkinter is the most commonly used library for developing GUI (Graphical User Interface) in Python.</p>
+            <a href="{% url 'tkinter' %}" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="../../static/app/profiles/flask-profile.jpg" alt="">
+            <h3>Flask</h3>
+            <p>Flask’s framework is more explicit than Django’s framework and is also easier to learn because it ...</p>
+            <a href="{% url 'flask' %}" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+    {% endblock %}
+
+
+<!-- category section ends -->
+
+
+
+<!-- about section starts  -->
+
+    {% block about  %}
+        <section class="about" id="about">
+
+    <div class="image" data-aos="slide-right">
+        <img src="../../static/app/covers/loffy-about-cover.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3 data-aos="slide-left">the main core of the project</h3>
+        <p data-aos="fade-left">A small project in which I wanted to practice what I learned, I put some programs in two web framework ...<br>
+Actually I don't know what to write here, I just want you to enjoy your experience on this semi-dumb page, because I don't have enough knowledge to build web pages, this is my first experience, it may seem to you a little unorganized or barbaric.<br>but in fact my goal on this page is to learn, practice, and have fun.</p>
+        <a href="#category" class="btn" data-aos="zoom-out">Know more</a>
+    </div>
+
+</section>
+    {% endblock %}
+<!-- about section ends -->
+
+
+
+<!-- newsletter section  -->
+
+
+<!-- newsletter ends  -->
+
+
+<!-- footer section starts  -->
+    {% block footer %}
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#category">panda</a>
+                <a href="#category">django</a>
+                <a href="#category">tkinter</a>
+                <a href="#category">flask</a>
+            </div>
+
+
+           <div class="box">
+                <h3>contact info</h3>
+                <a href=""> <i class="fas fa-phone"></i>+212-69387-1087</a>
+=                <a href="https://mail.google.com/"> <i class="fas fa-envelope"></i>ilcielosenzastelle7@gmail.com</a>
+                <a href="https://www.google.com/maps/place/%D9%85%D9%83%D9%86%D8%A7%D8%B3%E2%80%AD/data=!4m2!3m1!1s0xda044d23bfc49d1:0xfbbf80a99e4cde18?sa=X&ved=2ahUKEwiX_PCBhpz1AhUaA2MBHXDzBwQQ8gF6BAgIEAE"> <i class="fas fa-map"></i> Meknes, Morocco - 50000 </a>
+            </div>
+
+            <div class="box">
+                <h3>follow me</h3>
+                <a href="https://www.facebook.com/zuck"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="https://twitter.com/elonmusk"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="https://www.instagram.com/cristiano/"> <i class="fab fa-instagram"></i> instagram </a>
+            </div>
+
+        </div>
+
+        <div class="credit">created by the legendary <span>Me</span> & That's all I have</div>
+    </section>
+    {% endblock %}
+<!-- footer section ends -->
+
+

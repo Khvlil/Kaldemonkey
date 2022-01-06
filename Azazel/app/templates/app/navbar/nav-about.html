@@ -1,0 +1,21 @@
+ <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="{% url 'home' %}">Kali<span> De </span>Monekey</a></div>
+            <ul class="menu">
+                <li><a href="{% url 'home' %}" class="menu-btn">Home</a></li>
+                <li><a href="{% url 'panda' %}" class="menu-btn">Panda</a></li>
+                <li><a href="{% url 'django' %}" class="menu-btn">Django</a></li>
+                <li><a href="{% url 'tkinter' %}" class="menu-btn">Tkinter</a></li>
+                <li><a href="{% url 'flask' %}" class="menu-btn">Flask</a></li>
+                <li><a href="{% url 'logout' %}" class="menu-btn">Logout</a></li>
+
+
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>

@@ -1,0 +1,54 @@
+{% extends "app/about-base.html" %}
+{% load static %}
+
+{% block title %}
+    Django
+{% endblock %}
+{% block nav %}
+<link rel="stylesheet" href="{% static 'app/css/nav/nav-django.css' %}"/>
+<div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    {% include 'app/navbar/nav-about.html' %}
+{% endblock %}
+{% block cover %}
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box-django second" style="background: url(../../static/app/covers/django-cover-about.jpg) no-repeat;">
+                    <div class="content-django" >
+                    <span>web framework</span>
+                    <h3 data-aos="flip-down">Django</h3>
+                    <p>Django is a high-level Python web framework<br>that encourages rapid development and clean, pragmatic<br>design.</p>
+                    <a href= "#about" class="btn-django">get started</a>
+                </div>
+            </div>
+         </div>
+       </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block about %}
+<script type="text/javascript" src="{% static 'app/css/django.css' %}"></script>
+  <section class="about-django" id="about">
+    <div class="about-django">
+    <div class="image">
+        <img src="../../static/app/about-profiles/django-about-profile.jpg" alt="" data-aos="slide-right">
+    </div>
+
+    <div class="content">
+        <h3 data-aos="slide-left">success story</h3>
+        <p data-aos="flip-left">What if I don't want to see the ugliness of collecting files and stacking them and searching inside them and blah blah blah ...<br>
+        I used Django to show the software cleanly, I also wanted to practice a bit, and that's how I got this idea<br>
+        To put all projects in a webpage, not all programs but some of some of them<br>
+        In short, dear viewer, as Hitler said: zfagh zfagh zfagh nine ...</p>
+        <a href="{% url 'home' %}#category" class="btn-django-2">Projects</a>
+    </div>
+    </div>
+</section>
+{% endblock %}
+
+
+

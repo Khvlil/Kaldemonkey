@@ -1,0 +1,56 @@
+{% extends "app/about-base.html" %}
+{% load static %}
+{% block title %}
+    Tkinter
+{% endblock %}
+
+{% block nav %}
+<link rel="stylesheet" href="{% static 'app/css/nav/nav-tkinter.css' %}"/>
+<div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    {% include 'app/navbar/nav-about.html' %}
+{% endblock %}
+{% block cover %}
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box-tkinter second" style="background: url(../../static/app/covers/tkinter-cover-about.jpg) no-repeat;">
+                    <div class="content-tkinter">
+                    <span>Tkinter's package</span>
+                    <h3 data-aos="flip-down">Tkinter</h3>
+                    <p>Tkinter introduces you to the exciting world<br>of GUI programming in Python.</p>
+                    <a href= "#about" class="btn-tkinter" data-aos="zoom-out">get started</a>
+                </div>
+            </div>
+         </div>
+       </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block about %}
+
+
+<section class="about-tkinter" id="about">
+
+    <div class="image">
+        <img src="../../static/app/about-profiles/about-tkinter-about.jpg" alt="" data-aos="slide-right">
+    </div>
+
+    <div class="content">
+        <h3 data-aos="slide-left">Spoko</h3>
+        <p data-aos="flip-left">I don't know how many people find it difficult to learn a language, as they have to write words, translate them and learn their pronunciations...
+In this small program you can:
+- Store words with their explanation
+- Word translations in five languages
+- Hear her pronunciation in English</p>
+        <a class="btn-tkinter-2" href="{% static 'app/exe/application.zip' %}"
+       download="spoko">Download</a>
+    </div>
+
+</section>
+{% endblock %}
+
+

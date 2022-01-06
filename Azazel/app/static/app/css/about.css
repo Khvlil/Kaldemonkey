@@ -1,0 +1,646 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #10221b;
+}
+
+section {
+  padding: 5rem 9%;
+}
+
+
+
+.home {
+  padding: 0;
+}
+
+
+
+
+/* about-flask part*/
+.btn-flask {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.4rem solid rgba(119, 99, 168, 0.44);
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(119, 99, 168, 0.26);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-flask:hover {
+  color: #634bff;
+}
+
+.btn-flask-2 {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.3rem solid #33190C;
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(155, 74, 33, 0.21);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-flask-2:hover {
+  color: #000000;
+}
+
+/* about-panda part*/
+.btn-panda {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.4rem solid rgba(99, 168, 166, 0.44);
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(99, 168, 155, 0.26);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-panda:hover {
+  color: #ffffff;
+}
+
+.btn-panda-2 {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.3rem solid #0c3317;
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(33, 155, 100, 0.21);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-panda:hover {
+  background: rgba(0, 93, 90, 0.29);
+}
+
+.home .box-django {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem 9%;
+}
+
+.home .box-django.second {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.home .box-django .content-django {
+    width: 50rem;
+}
+
+.home .box-django .content-django span {
+  font-size: 4rem;
+  color: #ffd7a4;
+}
+
+.home .box-django .content-django h3 {
+  font-size: 6rem;
+  color: #ffad00;
+  padding-top: .5rem;
+  text-transform: uppercase;
+}
+
+.home .box-django .content-django p {
+  line-height: 2;
+  color: #10221b;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+
+.about-django {
+  background: url(../about-blur-covers/about-blur-cover-django.jpg) no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about-django .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+.about-django .image img {
+  width: 100%;
+  -webkit-box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.about-django .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.about-django .content h3 {
+  font-size: 3rem;
+  color: #AABA24;
+}
+
+.about-django .content p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  line-height: 2.5;
+}
+
+
+
+/* about-flask part*/
+.btn-flask {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.4rem solid rgba(119, 99, 168, 0.44);
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(119, 99, 168, 0.26);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-flask:hover {
+  color: #634bff;
+}
+
+.btn-flask-2 {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.3rem solid #b97755;
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(155, 74, 33, 0.21);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-flask-2:hover {
+  color: #b97755;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 4rem;
+  color: #10221b;
+}
+
+
+.home .box-flask {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem 9%;
+}
+
+.home .box-flask.second {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.home .box-flask .content-flask {
+    width: 50rem;
+}
+
+.home .box-flask .content-flask span {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.home .box-flask .content-flask h3 {
+  font-size: 6rem;
+  color: #7763A8;
+  padding-top: .5rem;
+  text-transform: uppercase;
+}
+
+.home .box-flask .content-flask p {
+  line-height: 2;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.about-flask {
+  background: url(../about-blur-covers/about-blur-cover-flask.jpg) no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+
+}
+
+.about-flask .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+.about-flask .image img {
+  width: 100%;
+  -webkit-box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.about-flask .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.about-flask .content h3 {
+  font-size: 3rem;
+  color: #c4b58c;
+}
+
+.about-flask .content p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 2rem 0;
+  line-height: 2.5;
+}
+
+
+/* about-django part*/
+.btn-django {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.4rem solid rgb(108, 64, 37);
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(119, 64, 10, 0.46);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-django:hover {
+  background: rgba(217, 198, 142, 0.44);
+  color: #ffdcc3;
+}
+
+.btn-django-2 {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.4rem solid rgb(128, 68, 26);
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(119, 64, 10, 0.27);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-django-2:hover {
+  background: rgba(217, 198, 142, 0.44);
+  color: rgb(145, 83, 25);
+}
+
+
+/* about-tkinter part */
+.btn-tkinter {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.4rem solid rgb(206, 188, 138);
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(71, 80, 80, 0.21);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-tkinter:hover {
+  color: #ffffff;
+    background: rgba(217, 198, 142, 0.44);
+}
+
+.btn-tkinter-2 {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.3rem solid #594e47;
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(155, 74, 33, 0.1);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-tkinter-2:hover {
+  color: #656565;
+}
+.home .box-tkinter {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem 9%;
+}
+
+.home .box-tkinter.second {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.home .box-tkinter .content-tkinter {
+    width: 50rem;
+}
+
+.home .box-tkinter .content-tkinter span {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.home .box-tkinter .content-tkinter h3 {
+  font-size: 6rem;
+  color: #c4b58c;
+  padding-top: .5rem;
+  text-transform: uppercase;
+}
+
+.home .box-tkinter .content-tkinter p {
+  line-height: 2;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+
+.about-tkinter {
+  background: url(../about-blur-covers/about-blur-cover-tkinter.jpg) no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about-tkinter .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+.about-tkinter .image img {
+  width: 100%;
+  -webkit-box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.about-tkinter .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.about-tkinter .content h3 {
+  font-size: 3rem;
+  color: #3267a1;
+}
+
+.about-tkinter .content p {
+  font-size: 1.7rem;
+  color: #ffffff;
+  padding: 2.5rem 0;
+  line-height: 2.5;
+}
+
+
+/* about-flask part */
+.btn-flask {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.4rem solid rgba(119, 99, 168, 0.44);
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(119, 99, 168, 0.26);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-flask:hover {
+  color: #b8adff;
+}
+
+.btn-flask-2 {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.3rem solid #774329;
+  color: #ffffff;
+  cursor: pointer;
+  background: rgba(155, 74, 33, 0.21);
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn-flask-2:hover {
+  color: #c9b9b0;
+}
+
+.home .box-pandas {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem 9%;
+}
+
+.home .box-pandas.second {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.home .box-pandas .content-pandas {
+    width: 50rem;
+}
+
+.home .box-pandas .content-pandas span {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.home .box-pandas .content-pandas h3 {
+  font-size: 6rem;
+  color: #8cbfc4;
+  padding-top: .5rem;
+  text-transform: uppercase;
+}
+
+.home .box-pandas .content-pandas p {
+  line-height: 2;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+
+.about-pandas {
+  background: url(../about-blur-covers/about-blur-cover-panda.jpg) no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about-pandas .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+.about-pandas .image img {
+  width: 100%;
+  -webkit-box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.about-pandas .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.about-pandas .content h3 {
+  font-size: 3rem;
+  color: #5198e3;
+}
+
+.about-pandas .content p {
+  font-size: 1.7rem;
+  color: #ffffff;
+  padding: 2.5rem 0;
+  line-height: 2.5;
+}
+
+
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+    scroll-padding-top: 7rem;
+  }
+  .home .box {
+    padding: 2rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-position: right !important;
+  }
+  .home .box.second {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-position: left !important;
+  }
+  .home .box .content {
+    text-align: center;
+  }
+  .home .box .content span {
+    font-size: 3rem;
+  }
+  .home .box .content h3 {
+    font-size: 4rem;
+  }
+}

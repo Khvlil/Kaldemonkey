@@ -1,0 +1,56 @@
+{% extends "app/about-base.html" %}
+{% load static %}
+{% block title %}
+    Panda
+{% endblock %}{% block nav %}
+<link rel="stylesheet" href="{% static 'app/css/nav/nav-pandas.css' %}"/>
+<div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    {% include 'app/navbar/nav-about.html' %}
+{% endblock %}
+{% block cover %}
+
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box-pandas second" style="background: url(../../static/app/covers/pandas-cover-about.jpg) no-repeat;">
+                    <div class="content-pandas" >
+                    <span>Panda's Library</span>
+                    <h3 data-aos="flip-down">Pandas</h3>
+                    <p>pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+built on top of the Python programming language.
+                    </p>
+                    <a href= "#about" class="btn-panda">get started</a>
+                </div>
+            </div>
+         </div>
+       </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block about %}
+<form method="post" action="">
+<section class="about-pandas" id="about">
+
+    <div class="image">
+        <img src="../../static/app/about-profiles/about-pandas-about.jpg" alt="" data-aos="slide-right">
+    </div>
+
+    <div class="content">
+        <h3 data-aos="slide-left">The poor panda</h3>
+        <p data-aos="flip-left">A former Panda had a Honda, he didn't really like it, he wanted to replace it with a better car, although he is poor, he was ambitious so he started looking for all kinds of cars, and came to a conclusion, which is the legendary car
+            <br>and here he presents you the types of Mercedes from 2010 and 2011.</p>
+        <a href="{% url 'flask' %}#about" class="btn-panda">know more</a>
+    </div>
+
+
+</section>
+</form>
+{% endblock %}
+
+<style rel="stylesheet" href="{% static 'app/css/about.css' %}"/>
+
+

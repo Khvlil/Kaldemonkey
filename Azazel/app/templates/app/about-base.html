@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% load static %}
+     <link rel="icon" href="{% static 'app/favicon/favicon.ico' %}">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <title data-aos="flip-down">
+        {% block title %}
+
+        {% endblock %}
+    </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="{% static 'app/css/about.css' %}"/>
+
+
+
+</head>
+
+
+
+<body>
+<form method="POST" action="">
+
+    {% csrf_token %}
+{% block nav %}
+
+{% endblock %}
+
+
+<!-- header section ends -->
+
+
+<!-- cover section start -->
+<section class="home" id="home">
+        <div class="swiper home-slider">
+{% block cover %}
+
+{% endblock %}
+    </div>
+
+</section>
+<!-- cover section ends -->
+
+<!-- about section starts  -->
+{% block about  %}
+
+
+
+{% endblock %}
+<!-- about section ends -->
+    </form>
+<script type="text/javascript" src="{% static 'app/js/base.js' %}"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+
+</html>

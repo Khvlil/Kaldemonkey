@@ -1,0 +1,52 @@
+{% extends 'login/log-reg.html' %}
+{% load static %}
+{% block reg %}
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>New here?</h2>
+          <p>Sign up and discover great amount of new opportunities!</p>
+        </div>
+        <div class="img-text m-in">
+          <h2>One of us?</h2>
+          <p>If you already has an account, just sign in. We've missed you!</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">Sign Up</span>
+          <span class="m-in">Sign In</span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2>Sign Up</h2>
+        <label for="user">
+          <span>Username</span>
+          {{ reg.username }}
+
+        </label>
+        <label for="email">
+          <span>Email</span>
+          {{ reg.email_address }}
+
+        </label>
+        <label for="password">
+          <span>Password</span>
+         {{ reg.password }}
+
+        </label>
+        <label for="password_2">
+          <span>Confirm Password</span>
+          {{ reg.password }}
+        </label>
+        <button type="submit" class="submit">Sign Up Now</button>
+      </div>
+    </div>
+  </div>
+
+
+
+{% endblock %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<script type="text/javascript" src="{% static 'login/js/script.js' %}"></script>
+  <link rel="stylesheet" type="text/css" href="{% static 'login/css/style.css' %}">

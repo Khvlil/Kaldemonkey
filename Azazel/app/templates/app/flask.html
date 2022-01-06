@@ -1,0 +1,50 @@
+{% extends "app/about-base.html" %}
+{% load static %}
+{% block title %}
+    Flask
+{% endblock %}
+{% block nav %}
+<link rel="stylesheet" href="{% static 'app/css/nav/nav-flask.css' %}"/>
+<div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    {% include 'app/navbar/nav-about.html' %}
+{% endblock %}
+
+{% block cover %}
+
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box-flask second" style="background: url(../../static/app/covers/flask-cover-about.jpg) no-repeat;">
+                    <div class="content-flask">
+                    <span>Web Framework</span>
+                    <h3 data-aos="flip-down">Flask</h3>
+                    <p>Flask is a web framework, it’s a Python module that<br>lets you develop web applications easily. </p>
+                    <a href= "#about" class="btn-flask">get started</a>
+                </div>
+             </div>
+           </div>
+        </div>
+     </div>
+</section>
+{% endblock %}
+
+{% block about %}
+
+<section class="about-flask" id="about" >
+    <div class="image" >
+        <img src="../../static/app/about-profiles/about-flask-about.jpg" alt="" data-aos="slide-right">
+    </div>
+    <div class="content" >
+        <h3 data-aos="slide-left">Transformers primee</h3>
+        <p data-aos="flip-left">Now we can happily move you to the Flask webframework to visit the poor panda page, and if you don't know what Flask is,
+is a Web Application Framework or a simply a Web Framework represents a collection of libraries and modul, there's no difference between it and Django, except that The last one is so much better hahahaha</p>
+        <a href="http://127.0.0.1:5000" class="btn-flask-2" >Let's go</a>
+    </div>
+</section>
+{% endblock %}
+
+<style rel="stylesheet" href="{% static 'css/about.css' %}"/>
+
